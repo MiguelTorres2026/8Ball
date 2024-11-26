@@ -9,7 +9,23 @@
   </head>
   <body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="sandbox.js"></script>
+      <div class="center">
+          <h1>Ask Me Anything:</h1>
+          <br>
+          Enter a question below, then click on the Magic 8-Ball to recieve its wisdom.
+          <br>
+          <input type="text" id="questionBox" size=100 value=''>
+          <br>
+
+          <button class="btn btn-primary" onClick="shake()">Shake</button>
+      </div>
+          <div class="row">
+              <img class="ball" id="ball"  alt="Magic 8 Ball" src="img\8.png">
+              <div id="fortune">
+
+              </div>
+          </div>
   </body>
 </html>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="sandbox.js"></script>
